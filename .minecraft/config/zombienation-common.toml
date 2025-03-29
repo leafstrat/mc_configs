@@ -1,0 +1,216 @@
+
+[General]
+	#Replace all skeletons in overworld with random zombies?
+	noSkeletons = false
+	#Do zombies burn at day?
+	burnAtDay = false
+	#Prevent creepers from blowing up zombies? Useful when feralMode is on.
+	creeperProtection = true
+	#Are hazmat zombies immune to potions?
+	hazmatSuitProtectsFromPotions = true
+	#Should zombies attack everything except undead?
+	feralMode = false
+	#Do zombie warriors have enchanted iron swords?
+	warriorsHaveSwords = true
+	#Do zombie miners have iron pickaxes?
+	minersHavePickaxes = true
+
+[Spawn]
+	#BiomeDictionary types to include
+	include = ["OVERWORLD"]
+	#Frozen lumberjacks max count in group, 0-16, vanilla zombies == 4
+	#Range: 0 ~ 16
+	maxGroupFrozenLumberjacks = 4
+	#Brown bear min count in group, 0-16:
+	#Range: 0 ~ 16
+	minGroupBrownBear = 1
+	#Normal zombie min count in group (0-16, vanilla zombies == 2)
+	#Range: 0 ~ 16
+	minGroupNormal = 2
+	#Brown bear spawn weight:
+	#Range: 0 ~ 1000
+	spawnWeightBrownBear = 10
+	#Biomes where frozen lumberjacks will spawn:
+	frozenLumberjackBiomes = ["SNOWY"]
+	#Tough zombie (warriors, miners) max count in group (0-16, vanilla zombies == 4)
+	#Range: 0 ~ 16
+	maxGroupTough = 2
+	#Normal zombie max count in group (0-16, vanilla zombies == 4)
+	#Range: 0 ~ 16
+	maxGroupNormal = 4
+	#Biomes where brown bears and zombie bears will spawn:
+	bearBiomes = ["FOREST"]
+	#Zombie bear spawn weight:
+	#Range: 0 ~ 1000
+	spawnWeightZombieBear = 10
+	#Zombie bear max count in group, 0-16:
+	#Range: 0 ~ 16
+	maxGroupZombieBear = 3
+	#Brown bear max count in group, 0-16:
+	#Range: 0 ~ 16
+	maxGroupBrownBear = 3
+	#Zombie bear min count in group, 0-16:
+	#Range: 0 ~ 16
+	minGroupZombieBear = 1
+	#Normal zombie spawn weight (0-1000, vanilla zombies == 100
+	#Range: 0 ~ 1000
+	spawnWeightNormal = 100
+	#BiomeDictionary types to exclude (overrides "include")
+	exclude = ["NETHER", "END"]
+	#Frozen lumberjacks min count in group, 0-16, vanilla zombies == 2
+	#Range: 0 ~ 16
+	minGroupFrozenLumberjacks = 2
+	#Tough zombie (warriors, miners) spawn weight (0-1000, vanilla zombies == 100
+	#Range: 0 ~ 1000
+	spawnWeightTough = 10
+	#Tough zombie (warriors, miners) min count in group (0-16, vanilla zombies == 2)
+	#Range: 0 ~ 16
+	minGroupTough = 1
+	#Frozen lumberjack spawn weight, 0-1000, vanilla zombies == 100
+	#Range: 0 ~ 1000
+	spawnWeightFrozenLumberjack = 100
+
+[Infection]
+	#Does infection cause weakness?
+	infectionWeakness = true
+	#Does infection cause hunger?
+	infectionHunger = true
+	#Does infection cause nausea?
+	infectionNausea = true
+	#Infection duration in seconds before you die:
+	#Range: > 0
+	infectionDuration = 3600
+	#Infection chance from being hit by zombie, min: 0.0, max: 1.0, default: 0.1
+	#Range: 0.0 ~ 1.0
+	infectionChance = 0.1
+	#Spawn vanilla zombie when player dies from infection?
+	infectionDeathZombification = true
+	#Enable hardcore infection (disables cure for players, infected = dead)?
+	hardcoreInfection = false
+
+[Senses]
+	#Radius of area where zombies will be notified about noteblock activation:
+	#Range: > 0
+	noteblockNotifyRadius = 64
+	#Zombies will be attracted to breaking these blocks:
+	blockBreak = ["minecraft:glass", "minecraft:coal_ore", "minecraft:iron_ore", "minecraft:gold_ore", "minecraft:diamond_ore", "minecraft:emerald_ore", "minecraft:redstone_ore", "minecraft:lapis_ore", "minecraft:obsidian", "minecraft:gold_block", "minecraft:iron_block", "minecraft:diamond_block", "minecraft:emerald_block", "minecraft:lapis_block", "minecraft:redstone_block", "minecraft:redstone_lamp", "minecraft:glowstone", "minecraft:sea_lantern", "minecraft:lantern", "minecraft:soul_lantern", "minecraft:trapped_chest", "minecraft:anvil", "minecraft:chipped_anvil", "minecraft:damaged_anvil", "minecraft:iron_door", "minecraft:iron_trapdoor", "minecraft:cauldron"]
+	#Radius of area where zombies will be notified about using anvil:
+	#Range: > 0
+	anvilNotifyRadius = 64
+	#Radius of area around the player where zombies will be notified about breaking blocks:
+	#Range: > 0
+	blockBreakNotifyRadius = 64
+	#Zombies will be attracted to placing these blocks:
+	blockPlace = ["minecraft:torch", "minecraft:jack_o_lantern", "minecraft:lantern", "minecraft:sea_lantern", "minecraft:soul_lantern", "minecraft:glowstone", "minecraft:redstone_lamp", "minecraft:anvil", "minecraft:chipped_anvil", "minecraft:damaged_anvil", "minecraft:obsidian"]
+	#Radius of area around the player where zombies will be notified about placing blocks:
+	#Range: > 0
+	blockPlaceNotifyRadius = 64
+	#Radius of area around the player where zombies will be notified about explosions:
+	#Range: > 0
+	explosionNotifyRadius = 128
+
+[Loot]
+	#Husk with skin head loot:
+	zombie2_loot = "minecraft:acacia_leaves"
+	#Hazmat zombie loot:
+	zombie5_loot = "minecraft:glass_bottle"
+	#Zombie girl with flowers on head loot:
+	zombie8_loot = "minecraft:poppy"
+	#Zombie girl with flowers on head loot drop chance:
+	#Range: 0.0 ~ 1.0
+	zombie8_drop_chance = 0.5
+	#Possible chesthead loot
+	chestheadLoot = ["minecraft:rotten_flesh", "minecraft:oak_planks"]
+	#Husk girl loot drop chance:
+	#Range: 0.0 ~ 1.0
+	zombie7_drop_chance = 0.5
+	#Zombie bear loot:
+	zombie_bear_loot = "minecraft:bone_block"
+	#Brown bear loot:
+	brown_bear_loot = "minecraft:leather"
+	#Zombie in short pants loot drop chance:
+	#Range: 0.0 ~ 1.0
+	zombie1_drop_chance = 0.5
+	#Frozen lumberjack loot drop chance:
+	#Range: 0.0 ~ 1.0
+	zombie9_drop_chance = 0.5
+	#Husk with skin head loot drop chance:
+	#Range: 0.0 ~ 1.0
+	zombie2_drop_chance = 0.5
+	#Zombie warrior loot drop chance:
+	#Range: 0.0 ~ 1.0
+	zombie4_drop_chance = 0.5
+	#Husk girl loot:
+	zombie7_loot = "minecraft:paper"
+	#Zombie miner loot:
+	zombie3_loot = "minecraft:minecraft:coal_ore"
+	#Zombie miner loot drop chance:
+	#Range: 0.0 ~ 1.0
+	zombie3_drop_chance = 0.5
+	#Zombie bear loot drop chance:
+	#Range: 0.0 ~ 1.0
+	zombie_bear_drop_chance = 0.5
+	#Zombie Alex loot drop chance:
+	#Range: 0.0 ~ 1.0
+	zombie6_drop_chance = 0.5
+	#Frozen lumberjack loot:
+	zombie9_loot = "minecraft:spruce_log"
+	#Zombie in short pants loot:
+	zombie1_loot = "minecraft:carrot"
+	#Zombie Alex loot:
+	zombie6_loot = "minecraft:pumpkin_pie"
+	#Brown bear loot drop chance:
+	#Range: 0.0 ~ 1.0
+	brown_bear_drop_chance = 0.5
+	#Zombie warrior loot:
+	zombie4_loot = "minecraft:leather_boots"
+	#Hazmat zombie loot drop chance:
+	#Range: 0.0 ~ 1.0
+	zombie5_drop_chance = 0.5
+
+[Worldgen]
+	#Average distance between cactus farms (in chunks):
+	#Range: > 8
+	cactusFarmAvgDistance = 32
+	#Minimum distance between cactus farms (in chunks):
+	#Range: > 8
+	cactusFarmMinDistance = 16
+	#Average distance between cursed wells (in chunks):
+	#Range: > 8
+	cursedWellAvgDistance = 32
+	#Minimum distance between cursed wells (in chunks):
+	#Range: > 8
+	cursedWellMinDistance = 16
+
+[NamedZombies]
+	#Slowness effect multiplier for Prickies
+	#Range: 0 ~ 10
+	PrickySlownessValue = 3
+	#Health boost effect multiplier for Prickies
+	#Range: 0 ~ 10
+	PrickieHealthBoostValue = 3
+	#Weakness effect multiplier for Heisenbergs
+	#Range: 0 ~ 10
+	HeisenbergsWeaknessValue = 10
+	#Strength effect multiplier for Prickies
+	#Range: 0 ~ 10
+	PrickyStrengthValue = 10
+	#Regeneration effect multiplier for Heisenbergs
+	#Range: 0 ~ 10
+	HeisenbergsRegenValue = 3
+	#Resistance effect multiplier for Prickies
+	#Range: 0 ~ 10
+	PrickieResistanceValue = 3
+	#Health boost effect multiplier for Heisenbergs
+	#Range: 0 ~ 10
+	HeisenbergsHealthBoostValue = 3
+	#Speed effect multiplier for Heisenbergs
+	#Range: 0 ~ 10
+	HeisenbergsSpeedValue = 3
+	#Regeneration effect multiplier for Prickies
+	#Range: 0 ~ 10
+	PrickyRegenValue = 3
+	#Resistance effect multiplier for Heisenbergs
+	#Range: 0 ~ 10
+	HeisenbergsResistanceValue = 3
+
