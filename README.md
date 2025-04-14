@@ -21,7 +21,6 @@
 - Need to modify it to work with the other folders we want to sync.
 - [ ] might be best to integrate this config update stuff into the mod update stuff, so you dont need to run two scripts, just update the old one
 
-
 ## Folders for syncing:
 ```sh
 patchouli_books/
