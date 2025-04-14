@@ -1,0 +1,14 @@
+
+[client]
+	#Toggle cinematic camera on while zooming
+	smoothCamera = true
+	#The speed at witch the camera will be zoomed
+	#doSlowZoom must be in order to work
+	#Range: 1.0 ~ 2.0
+	zoomSpeed = 1.0
+	#The Amount that will be zoomed in
+	#Range: 0.0 ~ 2.147483647E9
+	zoomAmount = 5.0
+	#Make zooming in more progressive
+	doSlowZoom = false
+

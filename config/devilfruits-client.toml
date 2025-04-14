@@ -1,0 +1,11 @@
+
+[Config]
+	#Whether the amount of health of a player above 20 points should be rendered as a blue outline around the health bar : [Default:true]
+	shouldHealthRenderedAsAnOutilineOnHealthBar = true
+	#Whether the amount of health of a player above 20 points should be rendered as an additional row of hearts above the vanilla one : [Default:false]
+	shouldHealthBeRenderedAsAnAdditionalRowOfHeartBar = false
+	#Whether the amount of energy of a player should be rendered as a green outline around the food bar : [Default:true]
+	shouldEnergyRenderedAsAnOutilineOnFoodBar = true
+	#Whether the amount of energy of a player should be rendered as a bar like willpower : [Default:false]
+	shouldEnergyBeRenderedAsAnAdditionalBarLikeWillpower = false
+

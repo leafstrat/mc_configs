@@ -1,0 +1,27 @@
+
+[Config]
+	#Whether conqueror haki can be given randomly to player when they first spawn in the world : [Default:true]
+	isConquerorTheOneModeOn = true
+	#Chances out of 100 to get conqueror haki when joining the world for the first time (only if isConquerorTheOneModeOn is set on true) : [Default:5]
+	#Range: 0.0 ~ 100.0
+	chanceToGetConquerorHakiOnSpawn = 5.0
+	#Whether conqueror haki can be unlocked by getting every vanilla advancement : [Default:true]
+	isConquerorAdvancementModeOn = true
+	#Whether conqueror haki can be unlocked by reaching the highest level of mastery in every other haki : [Default:false]
+	isConquerorHakiMasteryModeOn = false
+	#Maximum chance out of 100, for a devil fruit to spawn in a loot chest (the chance is calculated by the chest default content value then clamped by this value) : [Default:100]
+	#Range: 0.0 ~ 100.0
+	maxChanceForDevilFruitToSpawn = 100.0
+	#Whether Haki can be obtained in survival or not : [Default:true]
+	canGetHakiInSurvival = true
+	#Whether devil fruits should be removed on death : [Default:false]
+	doesDeathRemoveDevilFruit = false
+	#Max edible devil fruits (in creative only) : [Default:5]
+	#Range: 0 ~ 10
+	maxCreativeFruits = 5
+	#Whether logia should be invulnerable or not : [Default:true]
+	areLogiaInvulnerable = true
+	#Chances out of 100 for an entity to have armament haki when it spawn : [Default:0
+	#Range: 0.0 ~ 100.0
+	chanceForAnEntityToSpawnWithHaki = 0.0
+
