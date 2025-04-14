@@ -1,6 +1,0 @@
-#
-#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
-#
-waypoint:Arena:A:-435:78:-36:10:false:0:gui.xaero_default:false:0:0:false
-waypoint:Sky Island:S:546:124:-41:9:false:0:gui.xaero_default:false:0:0:false
-waypoint:Ship:S:-214:63:-276:1:false:0:gui.xaero_default:false:0:0:false
