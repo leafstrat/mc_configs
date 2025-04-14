@@ -21,6 +21,13 @@
 - Need to modify it to work with the other folders we want to sync.
 - [ ] might be best to integrate this config update stuff into the mod update stuff, so you dont need to run two scripts, just update the old one
 
+## Powershell script
+- Modify the already existing script
+- Make the installing user delete everything inside these folders
+- Add the second git repo to the script
+- Make the script sync the following folders:
+- Expand the log to include the newly tracked folder changes
+
 ## Folders for syncing:
 ```sh
 patchouli_books/
