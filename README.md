@@ -19,8 +19,10 @@
 `windows_mod_downloader.ps1`
 - A powershell script that works for syncing a different repo `mc_mods` to a folder on the users filesystem, and then moving files from that folder into `.minecraft/mods`
 - Need to modify it to work with the other folders we want to sync.
+- [ ] might be best to integrate this config update stuff into the mod update stuff, so you dont need to run two scripts, just update the old one
 
-# Folders for syncing:
+
+## Folders for syncing:
 ```sh
 patchouli_books/
 server-resource-packs/
@@ -32,7 +34,7 @@ maessentials/
 resourcepacks/
 ```
 
-# config/ Folder:
+## config/ Folder:
 ```sh
 improvedmobs/
 nameless_trinkets/
